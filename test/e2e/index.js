@@ -4,7 +4,7 @@ import {
   nextStateOfCell,
 } from '../../plugins'
 
-test('probability of life should be 0.5', async (t) => {
+test('probability of life should be 0.2', async (t) => {
   t.is(probabilityOfCellBirth(), 0.2)
 })
 
